@@ -22,9 +22,7 @@ main() {
   String s1 = "Bom ";
   String s2 = "dia";
 
-  print(s1 +
-      s2.toLowerCase() +
-      " !!!"); //toLowerCase() deixa as letras maiúsculas
+  print(s1 + s2.toLowerCase() + " !!!"); //toLowerCase() deixa as letras maiúsculas
 
   bool estaChovendo = true;
   bool muitoFrio = false;
