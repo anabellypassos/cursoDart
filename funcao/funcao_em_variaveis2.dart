@@ -9,3 +9,5 @@ main() {
   print(multiplicacao(9, 13));
   print(divisao(9, 13));
 }
+
+//nao usa return
