@@ -7,9 +7,14 @@ void main() {
     {'nome': 'Ricardo', 'nota': 7.6},
     {'nome': 'Ana', 'nota': 6.8},
   ];
-  Function(Map elemento) pegarApenasONome = (aluno) => aluno['nome'];
-  var nomes = alunos.map(pegarApenasONome);
-  print(nomes);
+
+  String Function(Map) pegarApenasONome = (aluno) => aluno['nome'];
+  int Function(String) qtdeDeLetras = (texto) => texto.length;
+  int Function(int) dobro = (numero) => numero * 2;
+
+  var resultado = alunos.map(pegarApenasONome).map(qtdeDeLetras).map(dobro);
+
+  print(resultado);
 }
 
 
