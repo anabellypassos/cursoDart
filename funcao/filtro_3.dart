@@ -1,4 +1,4 @@
-import 'dart:ffi';
+
 
 filtrar<E>(List<E> lista, Function(E) fn) {
   List<E> listaFiltrada = [];

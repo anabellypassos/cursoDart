@@ -14,4 +14,3 @@ void main() {
   print(estaChovendo && estaFrio ? "Azarado" : "Sortudo");
 }
 
-//stdin.readLineSync()   resosta do usuário
