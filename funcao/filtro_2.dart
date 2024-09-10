@@ -10,4 +10,4 @@ main() {
 }
 
 
-//where 
+//where = onde (função de filtro)
